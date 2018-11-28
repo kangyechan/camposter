@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b95413ca-bb53-4eb4-be66-87c57e0e384b" name="Default" comment="">
+<<<<<<< Updated upstream
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/lib/setting/setting.dart" />
@@ -11,6 +12,12 @@
       <change beforePath="$PROJECT_DIR$/camposter.iml" afterPath="$PROJECT_DIR$/camposter.iml" />
       <change beforePath="$PROJECT_DIR$/pubspec.lock" afterPath="$PROJECT_DIR$/pubspec.lock" />
       <change beforePath="$PROJECT_DIR$/test/widget_test.dart" afterPath="" />
+=======
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" />
+>>>>>>> Stashed changes
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.pub/" />
@@ -37,7 +44,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< Updated upstream
       <file leaf-file-name="main.dart" pinned="false" current-in-tab="false">
+=======
+      <file leaf-file-name="main.dart" pinned="false" current-in-tab="true">
+>>>>>>> Stashed changes
         <entry file="file://$PROJECT_DIR$/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
@@ -49,6 +60,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file leaf-file-name="setting.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/setting/setting.dart">
           <provider selected="true" editor-type-id="text-editor">
@@ -59,6 +71,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> Stashed changes
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -70,6 +84,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+<<<<<<< Updated upstream
+=======
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="setting" />
+      </map>
+    </option>
+>>>>>>> Stashed changes
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -89,7 +111,11 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+<<<<<<< Updated upstream
   <component name="ProjectLevelVcsManager">
+=======
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+>>>>>>> Stashed changes
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -138,12 +164,15 @@
               <item name="CamPoster-1.0.0" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< Updated upstream
             <path>
               <item name="CamPoster-1.0.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="CamPoster-1.0.0" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="setting" type="462c0819:PsiDirectoryNode" />
             </path>
+=======
+>>>>>>> Stashed changes
           </expand>
           <select />
         </subPane>
