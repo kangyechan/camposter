@@ -85,7 +85,7 @@ class _MyPageState extends State<MyPage> {
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: <Widget>[
                   Padding(
-                    padding: EdgeInsets.only(left: 20.0, bottom: 20.0),
+                    padding: EdgeInsets.only(left: 20.0, bottom: 10.0),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: <Widget>[
@@ -101,12 +101,12 @@ class _MyPageState extends State<MyPage> {
                     ),
                   ),
                   Padding(
-                    padding: EdgeInsets.only(left: 20.0, bottom: 20.0),
+                    padding: EdgeInsets.only(left: 20.0, bottom: 10.0),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: <Widget>[
                         Text(
-                          '21300765',
+                          '포항시',
                           style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
@@ -121,19 +121,13 @@ class _MyPageState extends State<MyPage> {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: <Widget>[
-                        InkWell(
-                          child: Text(
-                            '내 포스터',
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontWeight: FontWeight.bold,
-                              fontSize: 15.0,
-                            ),
+                        Text(
+                          '한동대학교',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 15.0,
                           ),
-                          onTap: () {
-                            print("내가 게시한 포스터");
-//                          Navigator.pushNamed(context, '/mypage_poster_iposted');
-                          },
                         )
                       ],
                     ),
@@ -166,7 +160,7 @@ class _MyPageState extends State<MyPage> {
                     ),
                   ),
                   child: Text(
-                    "태그 수정",
+                    "알림 태그",
                     textAlign: TextAlign.center,
                     style: TextStyle(
                         color: Theme.of(context).primaryColor,
@@ -174,100 +168,156 @@ class _MyPageState extends State<MyPage> {
                         fontWeight: FontWeight.bold),
                   ),
                 ),
-              ],
-            ),
-          ),
-          Padding(
-            padding: EdgeInsets.only(top: 30.0, left: 10.0),
-            child: Row(
-              children: <Widget>[
-                Text(
-                  '나의 태그',
-                  style: TextStyle(
-                      color: CamPosterRed200, fontWeight: FontWeight.bold),
-                ),
-                Padding(
-                  padding: EdgeInsets.only(left: 140.0),
+                SizedBox(width: 10.0),
+                InkWell(
                   child: Text(
-                    '알림 태그',
+                    "수정",
                     style: TextStyle(
-                        color: CamPosterRed200, fontWeight: FontWeight.bold),
+                      color: Colors.grey[500],
+                      fontSize: 12.0,
+                    ),
                   ),
-                )
+                  onTap: () {
+                    print("태그 수정 기능");
+                  },
+                ),
               ],
             ),
           ),
           Padding(
             padding: EdgeInsets.only(top: 20.0, left: 10.0),
-            child: Row(
+            child: Column(
               children: <Widget>[
                 Container(
-                  width: 170.0,
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
+                  child: Row(
                     children: <Widget>[
                       Container(
                         height: 30.0,
                         child: Text(
-                          '#나의 태그ㅇㅇㅇ',
+                          '#한동대학교',
                           style: TextStyle(
-                              color: CamPosterRed, fontWeight: FontWeight.bold),
+                            color: CamPosterRed, fontWeight: FontWeight.bold
+                          ),
                         ),
                       ),
+                      SizedBox(width: 10.0),
                       Container(
                         height: 30.0,
                         child: Text(
-                          '#나의 태그ㅇㅇㅇ',
+                          '#공모전',
                           style: TextStyle(
-                              color: CamPosterRed, fontWeight: FontWeight.bold),
+                            color: CamPosterRed, fontWeight: FontWeight.bold
+                          ),
                         ),
                       ),
+                      SizedBox(width: 10.0),
                       Container(
                         height: 30.0,
                         child: Text(
-                          '#나의 태그ㅇㅇㅇ',
+                          '#전산전자공학부',
                           style: TextStyle(
-                              color: CamPosterRed, fontWeight: FontWeight.bold),
+                            color: CamPosterRed, fontWeight: FontWeight.bold
+                          ),
+                        ),
+                      ),
+                      SizedBox(width: 10.0),
+                      Container(
+                        height: 30.0,
+                        child: Text(
+                          '#포항시',
+                          style: TextStyle(
+                              color: CamPosterRed, fontWeight: FontWeight.bold
+                          ),
                         ),
                       ),
                     ],
                   ),
                 ),
-                Padding(
-                  padding: EdgeInsets.only(left: 26.0),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
+                Container(
+                  child: Row(
                     children: <Widget>[
                       Container(
                         height: 30.0,
                         child: Text(
-                          '#나의 태그ㅇㅇㅇ',
+                          '#모바일 앱 개발',
                           style: TextStyle(
-                              color: CamPosterRed, fontWeight: FontWeight.bold),
+                              color: CamPosterRed, fontWeight: FontWeight.bold
+                          ),
                         ),
                       ),
+                      SizedBox(width: 10.0),
                       Container(
                         height: 30.0,
                         child: Text(
-                          '#나의 태그ㅇㅇㅇ',
+                          '',
                           style: TextStyle(
-                              color: CamPosterRed, fontWeight: FontWeight.bold),
+                              color: CamPosterRed, fontWeight: FontWeight.bold
+                          ),
                         ),
                       ),
+                      SizedBox(width: 10.0),
                       Container(
                         height: 30.0,
                         child: Text(
-                          '#나의 태그ㅇㅇㅇ',
+                          '',
                           style: TextStyle(
-                              color: CamPosterRed, fontWeight: FontWeight.bold),
+                              color: CamPosterRed, fontWeight: FontWeight.bold
+                          ),
+                        ),
+                      ),
+                      SizedBox(width: 10.0),
+                      Container(
+                        height: 30.0,
+                        child: Text(
+                          '',
+                          style: TextStyle(
+                              color: CamPosterRed, fontWeight: FontWeight.bold
+                          ),
                         ),
                       ),
                     ],
                   ),
-                )
+                ),
               ],
             ),
-          )
+          ),
+          Padding(
+            padding: const EdgeInsets.only(top: 20.0),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: <Widget>[
+                Container(
+                  decoration: BoxDecoration(
+                    border: Border(
+                      bottom: BorderSide(
+                          color: Theme.of(context).primaryColor, width: 2.0),
+                    ),
+                  ),
+                  child: Text(
+                    "내 포스터",
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                        color: Theme.of(context).primaryColor,
+                        fontSize: 20.0,
+                        fontWeight: FontWeight.bold),
+                  ),
+                ),
+                SizedBox(width: 10.0),
+                InkWell(
+                  child: Text(
+                    "수정",
+                    style: TextStyle(
+                      color: Colors.grey[500],
+                      fontSize: 12.0,
+                    ),
+                  ),
+                  onTap: () {
+                    print("포스터페이지 이동");
+                  },
+                ),
+              ],
+            ),
+          ),
         ],
       ),
     );
