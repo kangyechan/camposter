@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-//import 'colors.dart';
 
 class SettingCenterPage extends StatefulWidget {
   @override
@@ -9,7 +8,6 @@ class SettingCenterPage extends StatefulWidget {
 class _SettingCenterPageState extends State<SettingCenterPage> {
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return Scaffold(
       appBar: _buildAppBar(context),
       body: _buildBody(context),
