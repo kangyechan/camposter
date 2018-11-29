@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-//import 'colors.dart';
 
 class SettingPage extends StatefulWidget {
   @override
@@ -7,19 +6,17 @@ class SettingPage extends StatefulWidget {
 }
 
 class _SettingPageState extends State<SettingPage> {
-//  final buttonActiveColor = camposterRed;
-//  final buttonDeactiveColor = camposterRed200;
   Color buttonColor;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: _buildAppBar(context),
-      body: _buildBody(context),
+      appBar: _buildAppBar(),
+      body: _buildBody(),
     );
   }
 
-  Widget _buildAppBar(BuildContext context) {
+  Widget _buildAppBar() {
     return AppBar(
       elevation: 0.4,
       backgroundColor: Colors.white,
@@ -43,7 +40,7 @@ class _SettingPageState extends State<SettingPage> {
     );
   }
 
-  Widget _buildBody(BuildContext context) {
+  Widget _buildBody() {
     return Center(
       child: ListView(
         children: <Widget>[

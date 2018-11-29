@@ -12,7 +12,6 @@ class _SettingNoticePageState extends State<SettingNoticePage> {
 
   @override
   Widget build(BuildContext context) {
-
     Widget versionSection = ExpansionPanelList(
       expansionCallback: (int panelIndex, bool isExpanded) {
         setState(() {
@@ -89,7 +88,7 @@ class _SettingNoticePageState extends State<SettingNoticePage> {
         ),
       ],
     );
-    Widget _buildBody(BuildContext context) {
+    Widget _buildBody() {
       return ListView(
         children: <Widget>[
           versionSection,
@@ -100,12 +99,12 @@ class _SettingNoticePageState extends State<SettingNoticePage> {
     }
 
     return Scaffold(
-      appBar: _buildAppBar(context),
-      body: _buildBody(context),
+      appBar: _buildAppBar(),
+      body: _buildBody(),
     );
   }
 
-  Widget _buildAppBar(BuildContext context) {
+  Widget _buildAppBar() {
     return AppBar(
       elevation: 0.4,
       backgroundColor: Colors.white,
